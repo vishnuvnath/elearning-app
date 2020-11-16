@@ -55,12 +55,12 @@ def sec_reg(request):
     category = request.POST.get('category')
     if psw != rpsw:
         messages.success(request, 'passwords are not matching')
-        return render(request, 'index.html')
+        return render(request, 'index1.html')
     lk = Registration.objects.all()
     for t in lk:
         if (t.User_role == 'admin') and (category == 'admin'):
             messages.info(request, 'you are not allowed to be registered as admin')
-            return render(request, 'index.html')
+            return render(request, 'index1.html')
     request.session['password'] = psw
     request.session['category'] = category
     if category == 'admin':
@@ -77,16 +77,16 @@ def admin_reg(request):
         photo = request.FILES['photo']
         pic = FileSystemStorage()
         pic.save(photo.name, photo)
-        email = request.session['email']
-        psw = request.session['password']
-        category = request.session['category']
+        email = request.POST.get('email')
+        username = request.POST.get('username')
+        psw = request.POST.get('password')
         c = User.objects.all()
         for i in c:
-            if i.username == first_name:
+            if i.username == username:
                 messages.info(request, 'Username already exists. Please try another')
-                return render(request, 'index.html')
+                return render(request, 'index1.html')
 
-        user = User.objects.create_user(username=first_name, password=psw, email=email, first_name=first_name, last_name=last_name)
+        user = User.objects.create_user(username = username, password = psw, email = email, first_name = first_name, last_name = last_name)
         user.save()
         x = datetime.datetime.now()
         y = x.strftime("%Y-%m-%d")
@@ -94,7 +94,7 @@ def admin_reg(request):
         a.Registration_date = y
         a.Email = email
         a.Password = psw
-        a.User_role = category
+        a.User_role = 'admin'
         a.Num_of_enrolled_students = 0
         a.Average_review_rating = 0
         a.Num_of_reviews = 0
@@ -104,33 +104,41 @@ def admin_reg(request):
         a.Qualification = 'Nil'
         a.Introduction_brief = 'Nil'
         a.About_website = 'Nil'
-        a.user = b
+        a.user = user
         a.save()
         messages.success(request,'You have successfully registered as admin')
-        return render(request,'index.html')
+        return render(request,'index1.html')
     else :
         return render(request,'reg_admin.html')
+
 
 def login(request):
     if request.method == 'POST':
         uss = request.POST.get('uss')
-        pss = request.POST.get('pss')
-
         try:
-            c = Registration.objects.filter(First_name = uss)
-            for i in c:
-                if i.User_role == 'admin':
-                    return render(request, 'adminhome.html',{'c':c})
-                if i.User_role == 'teacher':
-                    return render(request, 'teacherhome.html',{'c':c})
-                if i.User_role == 'student':
-                    return render(request, 'studenthome.html',{'c':c})
+            User.objects.get(username = uss)
         except:
-            messages.info(request, 'invalid credentials')
-            return redirect('login')
-
+            messages.info(request,'Invalid credentials')
+            return render(request,'login.html')
+        g = User.objects.get(username = uss)
+        c = Registration.objects.filter(user = g)
+        for i in c:
+            if i.User_role == 'admin':
+                return render(request, 'adminhome.html',{'c':c})
+            if i.User_role == 'teacher':
+                return render(request, 'teacherhome.html',{'c':c})
+            if i.User_role == 'student':
+                return render(request, 'studenthome.html',{'c':c})
+            else:
+                messages.info(request, 'Your account to the website is blocked')
+                return render(request,'login.html')
     else:
         return render(request,'login.html')
+
+
+def login1(request):
+    if request.method == 'POST':
+        uss = request.method == 'uss'
 
 def adminhome(request):
     return render(request, 'adminhome.html')
@@ -140,6 +148,7 @@ def teacher_reg(request):
     if request.method == 'POST':
         first_name = request.POST.get('first_name')
         last_name = request.POST.get('last_name')
+        username = request.POST.get('username')
         qualification = request.POST.get('qualification')
         Introduction_brief= request.POST.get('Introduction_brief')
         Num_of_enrolled_students = request.POST.get('enroll')
@@ -150,12 +159,12 @@ def teacher_reg(request):
         psw = request.POST.get('psw')
         c = User.objects.all()
         for i in c:
-            if i.username == first_name:
+            if i.username == username:
                 messages.info(request, 'Username already exists. Please try another')
                 return render(request, 'index1.html')
 
         b = User()
-        b.username = first_name
+        b.username = username
         b.first_name = first_name
         b.last_name = last_name
         b.password = psw
@@ -189,19 +198,19 @@ def student_reg(request):
     if request.method == 'POST':
         first_name = request.POST.get('first_name')
         last_name = request.POST.get('last_name')
+        username = request.POST.get('username')
         photo = request.FILES['photo']
         pic = FileSystemStorage()
         pic.save(photo.name, photo)
-        email = request.session['email']
-        psw = request.session['password']
-        category = request.session['category']
+        email = request.POST.get('email')
+        psw = request.POST.get('password')
         c = User.objects.all()
         for i in c:
-            if i.username == first_name:
+            if i.username == username:
                 messages.info(request, 'Username already exists. Please try another')
-                return render(request, 'index.html')
+                return render(request, 'index1.html')
         b = User()
-        b.username = first_name
+        b.username = username
         b.first_name = first_name
         b.last_name = last_name
         b.password = psw
@@ -213,7 +222,7 @@ def student_reg(request):
         a.Registration_date = y
         a.Email = email
         a.Password = psw
-        a.User_role = category
+        a.User_role = 'student'
         a.Num_of_enrolled_students = 0
         a.Average_review_rating = 0
         a.Num_of_reviews = 0
@@ -324,10 +333,10 @@ def feedbak(request):
 def pass_req(request):
     return render(request,'pass_req.html')
 
-def m_m(request):
-    return render(request,'message.html')
+def member_messages(request):
+    return render(request,'messages.html')
 
-def g_m(request):
+def guest_messages(request):
     return render(request,'guest_message.html')
 
 def subject_ad(request):

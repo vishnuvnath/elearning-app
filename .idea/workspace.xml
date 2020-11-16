@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6361d1ec-c22b-45f1-909b-2067fddf407f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/elearning/.idea/elearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/elearning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/elearning/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/elearning/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/elearning/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/elearning/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/migrations/0002_registration_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/learn/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/3856A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/3856A_80DRG1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/3856A_Wbxsddc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/3856A_rZVh2Ro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG-20200130-WA0289 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG-20200130-WA0289 (2)_XGmyLz6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG-20200130-WA0289 (2)_YsQwAXd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG-20200130-WA0289 (2)_aUnIDe6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_0328.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_A0MeYtl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_CZfiHo9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_QAMKzKs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_SOJaLxp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_msdb3Fy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_p486Gm7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_qn2G950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_2515_z5cV7yx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_2Mt1skk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_35A0XXV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_BmVp3Ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_J8VbcBc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_RDCOavh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_Sber6UC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_UtYheGV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_exDvovM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/IMG_9410_o9wFkjZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/3856A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/3856A_f5n5AHp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG-20200130-WA0289_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_0328.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_2515.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_2515_Cp2kfAe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_2515_W7l0puN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_2515_fPQZFII.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_9410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_9410_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/media/media/IMG_9410_yVHKgHM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/msg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/studenthome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/table1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/css/trt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/lato-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/lato-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/lato-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/lato-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/nixieone-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/nixieone-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/nixieone-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/fonts/nixieone-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/1234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/BG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/abc.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/bg-separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/group-yoga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/icon-facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/icon-googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/icon-pinterest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/icon-twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/instructor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/instructor2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/instructor3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/instructor4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/lady-in-yoga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/lying-yoga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/lying-yoga2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/mobile/background.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/mobile/bg-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/mobile/mobile-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/mobile/mobile-collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/mobile/mobile-expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/mobile/mobile-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/wmn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/images/yoga-concentrating.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/js/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/static/js/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/add_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/adminhome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/course-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/display_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/reg_admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/reg_student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/reg_teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/studenthome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/teacherhome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/update_prof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elearning/templates/view_blog.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elearning/templates/index1.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elearning/learn/views.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elearning/learn/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="11" />
+    <option name="width" value="1030" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ELEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ELEARN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ELEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ELEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="elearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ELEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ELEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="elearning" type="462c0819:PsiDirectoryNode" />
+              <item name="elearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ELEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ELEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="elearning" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ELEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ELEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="elearning" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6361d1ec-c22b-45f1-909b-2067fddf407f" name="Default Changelist" comment="" />
+      <created>1605028507574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605028507574</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/elearning/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elearning/learn/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elearning/learn/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elearning/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

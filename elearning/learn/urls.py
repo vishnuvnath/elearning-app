@@ -1,7 +1,7 @@
 from django.urls import path
 import learn.views
 urlpatterns = [
-    path('',learn.views.index,name = 'index'),
+    path('',learn.views.index,name = 'index1'),
     path('index1',learn.views.index,name = 'index1'),
     path('course',learn.views.course_single,name = 'course'),
     path('news',learn.views.news,name = 'news'),
@@ -33,10 +33,10 @@ urlpatterns = [
     path('feedbak',learn.views.feedbak, name= 'feedbak'),
     path('pass_req',learn.views.pass_req, name= 'pass_req'),
     path('sub_ad',learn.views.subject_ad, name= 'sub_ad'),
-    path('message',learn.views.message, name= 'message'),
-    path('guest_message',learn.views.guest_message, name= 'guest_message'),
-    path('chapter_ad', learn.views.g_m, name='chapter_ad'),
-    path('cont_ad', learn.views.g_m, name='cont_ad'),
+    path('message',learn.views.member_messages, name= 'message'),
+    path('guest_message',learn.views.guest_messages, name= 'guest_message'),
+    path('chapter_ad', learn.views.chapter_ad, name='chapter_ad'),
+    path('cont_ad', learn.views.cont_ad, name='cont_ad'),
     path('logout', learn.views.logout, name='logout'),
 
 ]
