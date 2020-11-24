@@ -15,8 +15,12 @@
     <meta charset="UTF-8">
     <title>Blogs</title>
    <link rel="stylesheet" type="text/css" href="{% static 'trt.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/admin.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/msg.css' %}">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/studenthome.css' %}">
 </head>
-<body class= "pic" background="{% static 'trt.jpg' %}" >
+<body class= "pic" background="{% static 'images/bgadmin4.png' %}" >
 <h3 align="center">Approve/Reject blog requests</h3>
 <div style="color:blue;" align="center">
         {% if messages %}
@@ -52,7 +56,7 @@
          {{i.Blog_content}}
       </td>
       <td>
-         {{i.Image}}
+         <img src="/media/{{i.Image}}" style="width:20%">
       </td>
       <td>
          {{i.Date_blog}}
@@ -73,7 +77,7 @@
    {% endfor %}
 </table><br><br>
 <div align="center">
-   <button type="submit" onclick="location.href='{% url 'admin_home' %}'" name='mybtn2'>Back</button>
+   <button type="submit" onclick="location.href='{% url 'adminhome' %}'" name='mybtn2'>Back</button>
 </div>
 
 </body>

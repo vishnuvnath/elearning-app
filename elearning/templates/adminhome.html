@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Admin</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'admin.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'msg.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/admin.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/msg.css' %}">
 
-        <link rel="stylesheet" type="text/css" href="{% static 'studenthome.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/studenthome.css' %}">
 
 </head>
-<body class=" pic" background="{% static 'banner.jpg' %}">
+<body class=" pic" background="{% static 'images/bgadmin.png' %}">
 <div class="navbar">
   <div class="dropdown">
     <!--<button class="dropbtn">update profile<i class="fa fa-caret-down"></i></button>-->
@@ -23,11 +23,11 @@
    <div class="dropdown">
     <button class="dropbtn">Certificate<i class="fa fa-caret-down"></i></button>
     <div class="dropdown-content">
-        <a href="{% url 'upl_cer' %}">Upload certificate</a>
+        <a href="{% url 'upload_cert' %}">Upload certificate</a>
         <a href="{% url 'del_cer' %}">Delete certificate</a>
     </div>
   </div>
-  <a href="{% url 'abb' %}">About website</a>
+  <a href="{% url 'about_content' %}">About website</a>
   <a href="{% url 'block' %}">Block a member</a>
   <a href="{% url 'feedbak' %}">Feedbacks</a>
   <a href="{% url 'pass_req' %}">Password requests</a>
@@ -51,6 +51,43 @@
       <div>
     <h1>ADMIN HOME</h1>
 </div>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1000px;margin-top:50px;margin-left:1px">
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">My Profile</h4>
+          {% for e in c %}
+         <p class="w3-center"><img src="/media/{{e.Image}}"w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+            <p style="color:black;">{{e.First_name}}</p>
+           {% endfor %}
+         <hr>
+            <center>
+         <v> Admin</v><br><br>
+         <v> India, Kerala</v>
+                </center>
+        </div>
+      </div>
+
 <div align="center" style="color:blue;">
         {% if messages %}
             {% for msg in messages %}

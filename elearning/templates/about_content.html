@@ -1,0 +1,30 @@
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'trt.css' %}">
+     <link rel="stylesheet" type="text/css" href="{% static 'css/admin.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/msg.css' %}">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/studenthome.css' %}">
+
+
+</head>
+
+<body class= "pic" background="{% static 'images/bgadmin4.png' %}">
+    <div align="center">
+    <div style="display: block; width: 600px;">
+    <form method="post" action="{% url 'about_content' %}">
+        {% csrf_token %}
+<br><br>
+    ENTER CONTENT: <br><br><textarea rows="20" cols="100" name="abbt">{{amm.About_website}}</textarea><br><br>
+        <input type="hidden" name="idd" value="{{amm.id}}">
+    <button type="submit">Add</button><br><br>
+    </form>
+        <button type="submit" onclick="location.href='{% url 'adminhome' %}'" name='mybtn2'>Back</button>
+</div>
+</div>
+</body>
+</html>

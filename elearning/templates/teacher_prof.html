@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/trt.css' %}">
 
 </head>
-<body class="pic" background="{% static 'images/bgadmin4.png' %}">
+<body class="pic" background="{% static 'images/bgadmin.png' %}">
 <div align="center">
-<h1 style="color:red;font:;">Admin profile</h1>
+<h1 style="color:red;font:;">Teacher profile</h1>
 <div style="color:blue;">
         {% if messages %}
             {% for msg in messages %}
@@ -33,13 +33,13 @@
                 <td style="font-size:15pt">{{i.Password}}</td>
                 <td style="font-size:15pt">{{i.Registration_date}}</td>
                 <td>
-                    <button onclick="window.location.href = '{% url 'del_admin' i.id %}';">Resign from administration</button>
+                    <button onclick="window.location.href = '{% url 'del_teacher' i.id %}';">Resign from website</button>
                 </td>
                   <td>
-                    <button onclick="window.location.href = '{% url 'update_prof' %}';">Edit my profile</button>
+                    <button onclick="window.location.href = '{% url tupdate_prof' %}';">Edit my profile</button>
                 </td>
                 <td>
-                    <button onclick="window.location.href = '{% url 'adminhome' %}';">Back</button>
+                    <button onclick="window.location.href = '{% url 'teacherhome' %}';">Back</button>
                 </td>
 
     </tr>

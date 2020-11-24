@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <title>Admin</title>
     <link rel="stylesheet" type="text/css" href="{% static 'trt.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/admin.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/msg.css' %}">
-
-        <link rel="stylesheet" type="text/css" href="{% static 'css/studenthome.css' %}">
 </head>
-<body class= "pic" background="{% static 'images/bgadmin4.png' %}">
+<body class= "pic" background="{% static 'images/newbg2.jpg' %}">
 <div align="center">
 <form action="{% url 'bnb' %}" method="post">
 {% csrf_token %}
@@ -26,7 +22,7 @@
 </form>
 </div><br>
 <div align="center">
-    <button type="submit" onclick="location.href='{% url 'adm_prof' %}'">Back</button>
+    <button type="submit" onclick="location.href='{% url 'teacher_prof' %}'">Back</button>
 </div>
 </body>
 </html>
